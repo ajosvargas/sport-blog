@@ -1,5 +1,5 @@
-let buttonNav = document.querySelector('.nav-button');
+let button = document.getElementById('nav_button');
 
-buttonNav.addEventListener('click', () => {
-    location.assign('');
+button.addEventListener('click', () => {
+    location.assign('#');
 })
