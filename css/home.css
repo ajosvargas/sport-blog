@@ -7,7 +7,7 @@
     gap: 0px 0px;
     grid-template-areas:
       "head head head"
-      ". . ."
+      "main main aside"
       "foot foot foot";
 }
 
