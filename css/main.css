@@ -1,0 +1,21 @@
+/* font-family: 'Roboto', sans-serif; how to use the font-family */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import "home.css";
+
+/* UNIVERSAL Styles */
+
+*,*::after,*::before {
+    box-sizing: inherit;
+  }
+  
+  html {
+    box-sizing: border-box;
+    font-size:16px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #0B172A;
+    color:whitesmoke;
+}
