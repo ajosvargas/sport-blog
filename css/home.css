@@ -8,7 +8,7 @@
     grid-template-areas:
       "head head head"
       ". . ."
-      ". . .";
+      "foot foot foot";
 }
 
 /* Header Styles */
@@ -38,12 +38,12 @@
     list-style: none;
 }
 
-a{
+.nav-a{
     text-decoration: none;
     color: inherit;
 }
 
-a:hover{
+.nav-a:hover{
     border-bottom: 3px solid #BC4123;
 }
 
@@ -63,4 +63,56 @@ a:hover{
 
 .nav-button:hover{
     background-color:#d2583a;
+}
+
+/* Footer */
+
+.foot-flex{
+    position: fixed;
+    bottom:0px;
+    grid-area: foot;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.foot-p{
+    font-family:'Roboto', sans-serif;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 400px;
+    list-style: none;
+}
+
+.footer-a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.fa-twitter:hover{
+    color:#1DA1F2;
+    cursor: pointer;
+}
+
+.fa-facebook-f:hover{
+    color:#3b5998;
+    cursor: pointer;
+}
+
+.fa-instagram:hover{
+    color:#d6249f;
+    cursor: pointer;
+}
+
+.fa-youtube:hover{
+    color:#FF0000;
+    cursor: pointer;
 }
