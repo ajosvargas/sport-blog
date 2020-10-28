@@ -8,6 +8,15 @@
     right: 0;
 }
 
+.about-flex {
+    text-align: center;
+}
+
+.a-quote, .quote {
+    font-size: 14px;
+    margin: 0 0 0 2rem;
+}
+
 .foot {
     position: fixed;
     bottom: 0;
