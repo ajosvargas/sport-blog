@@ -1,0 +1,19 @@
+{
+  "name": "sport-blog",
+  "version": "1.0.0",
+  "description": "This is a blog template for my first project under Udacity and its nanodegree. I will be using CSS and HTML. Within this I will use various elements of UI design such as Grid and Flex.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajosvargas/sport-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajosvargas/sport-blog/issues"
+  },
+  "homepage": "https://github.com/ajosvargas/sport-blog#readme"
+}
