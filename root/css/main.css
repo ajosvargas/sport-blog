@@ -1,9 +1,9 @@
 /* font-family: 'Roboto', sans-serif; how to use the font-family */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import "home.css";
-@import "about.css";
-@import "sub.css";
-@import "post.css";
+@import 'home.css';
+@import 'about.css';
+@import 'sub.css';
+@import 'post.css';
 
 /* UNIVERSAL Styles */
 
@@ -13,7 +13,7 @@
   
   html {
     box-sizing: border-box;
-    font-size:16px;
+    font-size: 16px;
     overflow-x: hidden;
   }
   
@@ -22,6 +22,6 @@
     padding: 0;
     background-color: #11213a;
     color:whitesmoke;
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
   }
