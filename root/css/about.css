@@ -1,5 +1,5 @@
-.about-pic{
-    width:12rem;
+.about-pic {
+    width: 12rem;
     margin: auto;
     position: absolute;
     bottom: 0;
@@ -8,7 +8,7 @@
     right: 0;
 }
 
-.foot{
+.foot {
     position: fixed;
     bottom: 0;
     display: flex;

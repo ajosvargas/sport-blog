@@ -1,67 +1,67 @@
-.about-m{
-    margin:1rem auto;
-    width:30rem;
+.about-m {
+    margin: 1rem auto;
+    width: 30rem;
 }
 
 /* Body Styles */
 
-#body-flex{
+#body-flex {
     display: flex;
     flex-direction: column;
 }
 
-.header{
+.header {
     font-weight: bold;
 }
 
-.info-card{
+.info-card {
     color:whitesmoke;
-    font-size:14px;
+    font-size: 14px;
 }
 
-.user-form{
+.user-form {
    display: flex; 
 }
 
-form div{
+form div {
     margin-top: 0.5rem;
 }
 
-div label{
+div label {
     font-size: 18px;
 }
 
-.l-name{
+.l-name {
     margin-left: 9.2rem;
 }
 
-#lastname{
-    margin-left:1.3rem;
+#lastname {
+    margin-left: 1.3rem;
 }
 
-form input{
-    width:13.7rem;
+form input {
+    width: 13.7rem;
 }
 
-form input:focus{
-    outline:none;
-}
-
-#email{
-    width:29rem;
-}
-
-#message, #message:focus{
+form input:focus {
     outline: none;
 }
 
-#submit{
-    width:29rem;
-    height:1.5rem;
+#email {
+    width: 29rem;
+}
+
+#message, #message:focus {
+    outline: none;
+}
+
+#submit {
+    width: 29rem;
+    height: 1.5rem;
     font-weight: bold;
     background: whitesmoke;
-    outline:0;
-    border:1px solid gainsboro;
+    outline: 0;
+    border: 1px solid gainsboro;
     border-radius: 5px;
     cursor: pointer;
 }
