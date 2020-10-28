@@ -3,6 +3,7 @@
 @import "home.css";
 @import "about.css";
 @import "sub.css";
+@import "post.css";
 
 /* UNIVERSAL Styles */
 
@@ -23,4 +24,4 @@
     color:whitesmoke;
     font-family:'Roboto', sans-serif;
     overflow-x: hidden;
-}
+  }
