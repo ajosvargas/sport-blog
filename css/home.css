@@ -78,19 +78,19 @@ main{
 }
 
 .size{
-    width:50rem;
+    width:100%;
 }
 
 .main-header{
     font-style: italic;
     padding-bottom: 1rem;
     border-bottom: 2px solid #BC4123;
-    width:15rem;
+    width:10rem;
 }
 
 .preview_card{
     margin: 1rem 0 0 1rem;
-    width:12rem;
+    width:11rem;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 1px 4px 0 rgb(255, 255, 255);
@@ -102,7 +102,7 @@ main{
 }
 
 .preview_pic{
-    width: 12rem;
+    width: 11rem;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -112,6 +112,14 @@ em .preview_icon{
     margin-left:3px;
     margin-top:10px;
 }
+
+em a{
+    text-decoration: none;
+    margin-top:0.5rem;
+    color:#11213a;
+    border-bottom:1px solid #11213a;
+}
+
 
 .preview_text{
     color:#11213a;
@@ -254,11 +262,21 @@ and (max-device-width : 600px) {
     .main-flex{
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         margin-left: 3rem;
     }
 
+    .preview_card{
+        margin: 1rem 7rem 0 0;
+    }
+
     .aside-flex{
-        margin-left: 3rem;
+        align-items: center;
+        margin: 0.75rem 1rem 0 0;
+    }
+
+    .aside-flex .preview_card{
+        margin-left:8rem;
     }
 }
   
